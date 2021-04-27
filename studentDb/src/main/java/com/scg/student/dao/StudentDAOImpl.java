@@ -41,6 +41,7 @@ public class StudentDAOImpl implements StudentDAO {
 		int a=20;
 		String release1="release1";
 		String ajay="ajay";
+		String relese="Here is the release 1.0";
 		final String insertQuery = "insert into student values(?,?,?)";
 		try {
 			PreparedStatement preparedStatement = con.prepareStatement(insertQuery);
