@@ -39,6 +39,7 @@ public class StudentDAOImpl implements StudentDAO {
 		String name = studentVO.getName();
 		int age = studentVO.getAge();
 		int a=20;
+		String release1="release1";
 		String ajay="ajay";
 		final String insertQuery = "insert into student values(?,?,?)";
 		try {
