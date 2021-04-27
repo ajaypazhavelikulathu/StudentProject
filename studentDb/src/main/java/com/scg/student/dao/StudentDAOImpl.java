@@ -38,7 +38,7 @@ public class StudentDAOImpl implements StudentDAO {
 		boolean isTransactionSuccessful = false;
 		String name = studentVO.getName();
 		int age = studentVO.getAge();
-		int a=20;
+
 		final String insertQuery = "insert into student values(?,?,?)";
 		try {
 			PreparedStatement preparedStatement = con.prepareStatement(insertQuery);
